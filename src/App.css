@@ -1,10 +1,30 @@
-.App {
+.Header {
   text-align: left;
   padding-left: 45%;
   padding-top: 10%;
+  padding-bottom: 30%;
   font-size: 3rem;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 10000;
   font-style: oblique;
   font-synthesis: style;
+}
+
+.quote {
+  display: flex;
+}
+
+.quote-video {
+  width: 20%;
+  border-color: blue;
+}
+
+.quote-text {
+  width: 60%;
+  border-color: red;
+}
+
+.expand-button {
+  width: 20%;
+  border-color: yellow;
 }

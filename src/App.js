@@ -1,20 +1,31 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import Quote from './Quote';
 
 function App() {
+  const [data, setData] = useState([]);
+  const getData = () => {
+    fetch('quotes_data.json', {headers: {'Content-Type': "application/json", 'Accept': 'application/json'}}).then(res => {
+      return res.json()
+    }).then(json => {
+      setData(json['quotes']);
+    })
+  };
+
+  useEffect(()=>{
+    getData();
+  },[])
+
   return (
     <div className="App">
       <div className='Header'>
-        Elon
-        <tr/>
-        Musk
-        <tr/>
-        Archive
+        Elon Musk
       </div>
 
       <div className='all-quotes'>
-        <Quote video={null} text={"If you need encouraging words, don't do it."}/>
+        {
+          data && data.length > 0 && data.map((item,i) => <Quote text={item.quote} url={item.url} key={i}/>) 
+        }
       </div>
     </div>
   );

@@ -1,30 +1,49 @@
 .Header {
-  text-align: left;
-  padding-left: 45%;
-  padding-top: 10%;
-  padding-bottom: 30%;
-  font-size: 3rem;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-weight: 10000;
-  font-style: oblique;
-  font-synthesis: style;
+  font-size: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
 .quote {
   display: flex;
+  height: fit-content;
+  text-align: center;
+  align-items: center;
+  padding: 0 5% 0 5%;
+  margin: 1rem 0 1rem 0;
 }
 
 .quote-video {
   width: 20%;
-  border-color: blue;
+  height: 80%;
+  margin: 5px;
 }
 
 .quote-text {
-  width: 60%;
-  border-color: red;
+  width: fit-content;
+  height: 100%;
+  font-size: x-large;
+  align-self: center;
+  text-align: left;
+  background-color: gainsboro;
+}
+
+.quote-text:hover {
+  background-color: orange;
+  cursor: pointer;
 }
 
 .expand-button {
   width: 20%;
-  border-color: yellow;
+  height: 80%;
+  margin: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a, a:visited, a:hover {
+  color: inherit;
 }

@@ -3,6 +3,9 @@
   font-family: 'Times New Roman', Times, serif;
   font-weight: 100;
   font-style: normal;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .quote {

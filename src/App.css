@@ -1,6 +1,23 @@
+.App {
+  font-family: "LoveFrom, Serif", Georgia, serif;
+}
+
+@media (max-width: 400px) {
+  .Header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .header-text {
+    margin-bottom: 10px;
+  }
+}
+
 .Header {
   font-size: 2rem;
-  font-family: 'Times New Roman', Times, serif;
   font-weight: 100;
   font-style: normal;
   padding-top: 10px;
@@ -29,7 +46,6 @@
   font-size: x-large;
   align-self: center;
   text-align: left;
-  background-color: gainsboro;
 }
 
 .quote-text:hover {

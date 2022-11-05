@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="App">
       <div className='Header'>
-        <div>Elon Musk archive</div>
+        <div className='header-text'>Elon Musk archive</div>
         <TextField id="filled-basic" label="Search keyword" variant="outlined" size="small" onChange={event=>setSearchInput(event.target.value)}/>
       </div>
 

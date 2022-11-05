@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import Quote from './Quote';
 import { TextField } from '@mui/material';
-import { Modal, Button } from 'react-bootstrap';
+import { Modal } from 'react-bootstrap';
 
 function App() {
   const [data, setData] = useState([]);

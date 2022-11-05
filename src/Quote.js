@@ -1,14 +1,13 @@
 import React from "react";
 import './App.css';
-import { Button, IconButton } from "@mui/material";
-import RocketIcon from '@mui/icons-material/Rocket';
+import { IconButton } from "@mui/material";
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 
 export default function Quote(props) {
     return (
         <div className="quote">
             <div className="quote-text">
-                <a target="_blank" rel="noopener noreferrer">{props.text}</a>
+                <div>{props.text}</div>
             </div>
             <IconButton 
                 onClick={()=>{

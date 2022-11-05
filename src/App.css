@@ -28,6 +28,7 @@
 
 .quote {
   display: flex;
+  justify-content: space-between;
   height: fit-content;
   text-align: center;
   align-items: center;

@@ -6,8 +6,9 @@ import { Modal, Button } from 'react-bootstrap';
 
 function App() {
   const [data, setData] = useState([]);
-  const [searchInput, setSearchInput] = useState("");
+  const [searchInput, setSearchInput] = useState('');
   const [show, setShow] = useState(false);
+  const [modalUrl, setModalUrl] = useState('');
 
   const getData = () => {
     fetch('quotes_data.json', {headers: {'Content-Type': "application/json", 'Accept': 'application/json'}}).then(res => {
@@ -23,15 +24,17 @@ function App() {
 
   return (
     <div className="App">
-      <div className='Header'>
+      {!show && <div className='Header'>
         <div className='header-text'>Elon Musk archive</div>
         <TextField id="filled-basic" label="type something" variant="outlined" size="small" onChange={event=>setSearchInput(event.target.value)}/>
-        <Button onClick={()=>setShow(true)}>Get inspired</Button>
-      </div>
+      </div>}
 
       <div className='all-quotes'>
         <div>
-          <Modal show={show}>
+          <Modal show={show} fullscreen={true} onHide={()=>setShow(false)}>
+            <Modal.Header closeButton>
+              <Modal.Title>Modal</Modal.Title>
+            </Modal.Header>
             <Modal.Body>
               <iframe width="390px" height="219px" src="https://www.youtube-nocookie.com/embed/JGfygJXTwq4?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </Modal.Body>
@@ -47,7 +50,7 @@ function App() {
                 return item;
               }
               return null;
-            }).map((item,i) => <Quote text={item.quote} url={item.url} key={i}/>) 
+            }).map((item,i) => <Quote text={item.quote} url={item.url} setShow={setShow} setModalUrl={setModalUrl} key={i}/>) 
           }
         </div>}
       </div>

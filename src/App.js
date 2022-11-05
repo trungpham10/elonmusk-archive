@@ -29,17 +29,12 @@ function App() {
         <TextField id="filled-basic" label="type something" variant="outlined" size="small" onChange={event=>setSearchInput(event.target.value)}/>
       </div>}
 
+      <Modal className='video-modal' show={show} fullscreen={true} animation={false} restoreFocus={true} keyboard={true} centered={true} onHide={()=>setShow(false)} onClick={()=>setShow(false)}>
+        <Modal.Body closeButton>
+          <iframe width="390px" height="219px" src={modalUrl} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        </Modal.Body>
+      </Modal>
       <div className='all-quotes'>
-        <div>
-          <Modal show={show} fullscreen={true} onHide={()=>setShow(false)}>
-            <Modal.Header closeButton>
-              <Modal.Title>Modal</Modal.Title>
-            </Modal.Header>
-            <Modal.Body>
-              <iframe width="390px" height="219px" src={modalUrl} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-            </Modal.Body>
-          </Modal>
-        </div>
         {!show && <div>
           {
             data && data.length > 0 

@@ -10,11 +10,12 @@ export default function Quote(props) {
             <div className="quote-text">
                 <a target="_blank" rel="noopener noreferrer">{props.text}</a>
             </div>
-            <IconButton>
-                <RocketLaunchIcon onClick={()=>{
+            <IconButton 
+                onClick={()=>{
                     props.setShow(true);
                     props.setModalUrl(props.url)
-                }} fontSize="medium"/>
+                }}>
+                <RocketLaunchIcon fontSize="medium"/>
             </IconButton>
         </div>
     );

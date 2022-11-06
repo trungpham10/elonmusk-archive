@@ -81,7 +81,7 @@ a, a:visited, a:hover {
 
 @keyframes slide-up {
   0% {
-    margin-top: 400%;
+    margin-top: 100%;
   }
 
   100% {

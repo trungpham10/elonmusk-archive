@@ -7,14 +7,14 @@ export default function Quote(props) {
     return (
         <div className="quote">
             <div className="quote-text">
-                <div>{props.text}</div>
+                <div>"{props.text}"</div>
             </div>
             <IconButton 
                 onClick={()=>{
                     props.setShow(true);
                     props.setModalUrl(props.url)
                 }}>
-                <RocketLaunchIcon fontSize="medium"/>
+                {props.url && <RocketLaunchIcon fontSize="medium"/>}
             </IconButton>
         </div>
     );

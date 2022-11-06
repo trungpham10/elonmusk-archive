@@ -2,74 +2,99 @@
     "quotes": [
         {
             "quote": "You must feel compelled to do it. If you need encouraging words, don't do it.",
-            "url": "https://www.youtube-nocookie.com/embed/ie2eME2y_3Q?controls=1&autoplay=1"
+            "url": "https://www.youtube-nocookie.com/embed/ie2eME2y_3Q?controls=1&autoplay=1",
+            "tags": ["business", "motivation"]
+        },
+        {
+            "quote": "Persistence is very important. You should not give up unless you are forced to give up.",
+            "tags": ["persistence", "give", "up"]
         },
         {
             "quote": "When something is important enough, you do it even if the odds are not in your favor.",
-            "url": "https://www.youtube-nocookie.com/embed/ie2eME2y_3Q?controls=0&autoplay=1"
+            "url": "https://www.youtube-nocookie.com/embed/ie2eME2y_3Q?controls=1&autoplay=1",
+            "tags": ["business", "motivation"]
         },
         {
             "quote": "If something's important enough, you should try. Even if the probable outcome is failure.",
-            "url": "https://www.youtube-nocookie.com/embed/ie2eME2y_3Q?controls=0&autoplay=1"
+            "url": "https://www.youtube-nocookie.com/embed/ie2eME2y_3Q?controls=1&autoplay=1",
+            "tags": ["business", "motivation", "failure"]
         },
         {
             "quote": "Starting a business is not for everyone. Starting a business - I'd say, number one is have a high pain threshold.",
-            "url": "https://www.youtube-nocookie.com/embed/B8O9-gUVssw?controls=0&amp;start=281"
+            "url": "https://www.youtube-nocookie.com/embed/B8O9-gUVssw?controls=1&amp;start=281",
+            "tags": ["business", "pain"]
         },
         {
             "quote": "Work hard every waking hour.",
-            "url": "https://www.youtube-nocookie.com/embed/Qa_4c9zrxf0?controls=0"
+            "url": "https://www.youtube-nocookie.com/embed/Qa_4c9zrxf0?controls=1",
+            "tags": ["business", "work"]
         },
         {
             "quote": "Take risk now. Do something bold. You won't regret it.",
-            "url": "https://www.youtube-nocookie.com/embed/Qa_4c9zrxf0?controls=0&amp;start=236"
+            "url": "https://www.youtube-nocookie.com/embed/Qa_4c9zrxf0?controls=1&amp;start=236",
+            "tags": ["risk", "motivation"]
         },
         {
             "quote": "It's important that you like whatever you're doing. If you don't like it, life is too short.",
-            "url": "https://www.youtube-nocookie.com/embed/B8O9-gUVssw?controls=0&amp;start=331"
+            "url": "https://www.youtube-nocookie.com/embed/B8O9-gUVssw?controls=1&amp;start=331",
+            "tags": ["like", "life", "passion"]
         },
         {
-            "quote": "Optimism, pessimism, f**k that; we're going to make it happen. As God is my bloody witness, I'm hell-bent on making it work."
+            "quote": "Optimism, pessimism, f**k that; we're going to make it happen. As God is my bloody witness, I'm hell-bent on making it work.",
+            "tags": ["work", "motivation"]
         },
         {
-            "quote": "I think that's the single best piece of advice: Constantly think about how you could be doing things better and questioning yourself."
+            "quote": "I think that's the single best piece of advice: Constantly think about how you could be doing things better and questioning yourself.",
+            "tags": ["advice", "business"]
         },
         {
-            "quote": "Engineering is the closest thing to magic that exists in the world."
+            "quote": "Engineering is the closest thing to magic that exists in the world.",
+            "tags": ["engineering", "engineer", "magic"]
         },
         {
-            "quote": "There have to be reasons that you get up in the morning and you want to live. Why do you want to live? What's the point? What inspires you? What do you love about the future? If the future does not include being out there among the stars and being a multi-planet species, I find that incredibly depressing."
+            "quote": "There have to be reasons that you get up in the morning and you want to live. Why do you want to live? What's the point? What inspires you? What do you love about the future? If the future does not include being out there among the stars and being a multi-planet species, I find that incredibly depressing.",
+            "tags": ["future", "motivation", "life", "why"]
         },
         {
             "quote": "Great companies are built on great products.",
-            "url": "https://www.youtube-nocookie.com/embed/Qa_4c9zrxf0?controls=0&amp;start=116"
+            "url": "https://www.youtube-nocookie.com/embed/Qa_4c9zrxf0?controls=1&amp;start=81",
+            "tags": ["business", "product"]
         },
         {
-            "quote": "It's very important to like the people you work with. Otherwise, your job is going to be quite miserable."
+            "quote": "It's very important to like the people you work with. Otherwise, your job is going to be quite miserable.",
+            "tags": ["business", "like", "people"]
         },
         {
-            "quote": "If you go back a few hundred years, what we take for granted today would seem like magic - being able to talk to people over long distances, to transmit images, flying, accessing vast amounts of data like an oracle. These are all things that would have been considered magic a few hundred years ago."
+            "quote": "If you go back a few hundred years, what we take for granted today would seem like magic - being able to talk to people over long distances, to transmit images, flying, accessing vast amounts of data like an oracle. These are all things that would have been considered magic a few hundred years ago.",
+            "tags": ["engineering", "magic"]
         },
         {
-            "quote": "There are way easier places to work, but nobody ever changed the world on 40 hours a week."
+            "quote": "There are way easier places to work, but nobody ever changed the world on 40 hours a week.",
+            "tags": ["work", "motivation"]
         },
         {
-            "quote": "You have to be pretty driven to make it happen. Otherwise, you will just make yourself miserable."
+            "quote": "You have to be pretty driven to make it happen. Otherwise, you will just make yourself miserable.",
+            "tags": ["drive", "motivation"]
         },
         {
-            "quote": "There is a tremendous bias against taking risks. Everyone is trying to optimize their ass-covering."
+            "quote": "There is a tremendous bias against taking risks. Everyone is trying to optimize their ass-covering.",
+            "tags": ["business", "risk"]
         },
         {
-            "quote": "Failure is a good option. If you are not failing, you are not trying hard enough."
+            "quote": "Failure is a good option. If you are not failing, you are not trying hard enough.",
+            "tags": ["failure", "try", "hard"]
         },
         {
-            "quote": "Pay attention to negative feedback, and solicit it, particularly from friends."
+            "quote": "Pay attention to negative feedback, and solicit it, particularly from friends.",
+            "tags": ["business", "feedback"]
         },
         {
-            "quote": "If you're co-founder or CEO, you have to do all kinds of tasks you might not want to do... If you don't do your chores, the company won't succeed... No task is too menial."
+            "quote": "If you're co-founder or CEO, you have to do all kinds of tasks you might not want to do... If you don't do your chores, the company won't succeed... No task is too menial.",
+            "tags": ["business", "success"]
         },
         {
-            "quote": "I think it's possible for ordinary people to choose to be extraordinary."
+            "quote": "I think it's possible for ordinary people to choose to be extraordinary.",
+            "tags": ["people", "possible"]
         }
     ]
 }

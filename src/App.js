@@ -27,12 +27,11 @@ function App() {
       {!show && <div className='Header'>
         <div className='header-text'>Elon Musk archive</div>
         <TextField id="filled-basic" label="type something" variant="outlined" size="small" onChange={event=>setSearchInput(event.target.value)}/>
-        {/* <TextField id="filled-basic" label="prompt: I want to give up" variant="outlined" size="small"/> */}
       </div>}
 
       {modalUrl && <Modal className='video-modal' show={show} fullscreen={true} animation={false} restoreFocus={true} keyboard={true} centered={true} onHide={()=>setShow(false)} onClick={()=>setShow(false)}>
-        <Modal.Body closeButton>
-          <p align="center"><div className='iframe-vid'><iframe width="390px" height="219px" src={modalUrl} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe></div></p>
+        <Modal.Body>
+          <p align="center"><iframe width="390px" height="219px" src={modalUrl} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe></p>
         </Modal.Body>
       </Modal>}
       <div className='all-quotes'>
@@ -43,6 +42,8 @@ function App() {
               if (searchInput.length === 0) {
                 return item;
               } else if (item.quote.toLowerCase().includes(searchInput.toLowerCase())) {
+                return item;
+              } else if (item.tags && item.tags.some(tag => searchInput.toLocaleLowerCase().split(' ').includes(tag))) {
                 return item;
               }
               return null;

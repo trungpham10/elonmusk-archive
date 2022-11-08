@@ -12,7 +12,7 @@ export default function Quote(props) {
             <IconButton 
                 onClick={()=>{
                     props.setShow(true);
-                    props.setModalUrl(props.url)
+                    props.setModalUrl(props.url);
                 }}>
                 {props.url && <RocketLaunchIcon fontSize="medium"/>}
             </IconButton>

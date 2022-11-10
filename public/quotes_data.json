@@ -1,22 +1,33 @@
 {
     "quotes": [
         {
+            "quote": "Persistence is very important. You should not give up unless you are forced to give up.",
+            "url": "https://www.youtube.com/embed/ie2eME2y_3Q?start=35&autoplay=1",
+            "tags": ["persistence", "give", "up"]
+        },
+        {
+            "quote": "Take risk now. Do something bold. You won't regret it.",
+            "url": "https://www.youtube-nocookie.com/embed/Qa_4c9zrxf0?autoplay=1&amp;start=236",
+            "tags": ["risk", "motivation"]
+        },
+        {
+            "quote": "Starting a business is not for everyone. Starting a business - I'd say, number one is have a high pain threshold.",
+            "url": "https://www.youtube-nocookie.com/embed/B8O9-gUVssw?autoplay=1&amp;start=281",
+            "tags": ["business", "pain"]
+        },
+        {
             "quote": "You must feel compelled to do it. If you need encouraging words, don't do it.",
-            "url": "https://www.youtube-nocookie.com/embed/ie2eME2y_3Q?controls=1&autoplay=1",
+            "url": "https://www.youtube-nocookie.com/embed/ie2eME2y_3Q?autoplay=1",
             "tags": ["business", "motivation"]
         },
         {
             "quote": "You start with an idea, and that idea is mostly wrong. Then you adap that idea and keep refining it and you listen to criticism.",
-            "url": "https://www.youtube.com/embed/gxGUEGea0VU?start=27&controls=1",
+            "url": "https://www.youtube.com/embed/gxGUEGea0VU?start=27&autoplay=1",
             "tags": ["idea", "company", "improvement"]
         },
         {
-            "quote": "Persistence is very important. You should not give up unless you are forced to give up.",
-            "tags": ["persistence", "give", "up"]
-        },
-        {
             "quote": "The why of thing is extremely important because our brain has evolved to not discard information that it thinks has a relevance.",
-            "url": "https://www.youtube.com/embed/Qk_ilqerPcw",
+            "url": "https://www.youtube.com/embed/Qk_ilqerPcw?autoplay=1",
             "tags": ["why", "motivation"]
         },
         {
@@ -25,7 +36,7 @@
         },
         {
             "quote": "What I'm really looking for is evidence of exceptional ability.",
-            "url": "https://www.youtube.com/embed/EzvRLNLgG_U?start=0",
+            "url": "https://www.youtube.com/embed/EzvRLNLgG_U?autoplay=1",
             "tags": ["people", "exceptional", "hiring"]
         },
         {
@@ -33,23 +44,13 @@
             "tags": ["business", "motivation", "failure"]
         },
         {
-            "quote": "Starting a business is not for everyone. Starting a business - I'd say, number one is have a high pain threshold.",
-            "url": "https://www.youtube-nocookie.com/embed/B8O9-gUVssw?controls=1&amp;start=281",
-            "tags": ["business", "pain"]
-        },
-        {
             "quote": "Work hard every waking hour.",
-            "url": "https://www.youtube-nocookie.com/embed/Qa_4c9zrxf0?controls=1",
+            "url": "https://www.youtube-nocookie.com/embed/Qa_4c9zrxf0?autoplay=1",
             "tags": ["business", "work"]
         },
         {
-            "quote": "Take risk now. Do something bold. You won't regret it.",
-            "url": "https://www.youtube-nocookie.com/embed/Qa_4c9zrxf0?controls=1&amp;start=236",
-            "tags": ["risk", "motivation"]
-        },
-        {
             "quote": "It's important that you like whatever you're doing. If you don't like it, life is too short.",
-            "url": "https://www.youtube-nocookie.com/embed/B8O9-gUVssw?controls=1&amp;start=331",
+            "url": "https://www.youtube-nocookie.com/embed/B8O9-gUVssw?autoplay=1&amp;start=331",
             "tags": ["like", "life", "passion"]
         },
         {
@@ -70,7 +71,7 @@
         },
         {
             "quote": "Great companies are built on great products.",
-            "url": "https://www.youtube-nocookie.com/embed/Qa_4c9zrxf0?controls=1&amp;start=81",
+            "url": "https://www.youtube-nocookie.com/embed/Qa_4c9zrxf0?autoplay=1&amp;start=81",
             "tags": ["business", "product"]
         },
         {
